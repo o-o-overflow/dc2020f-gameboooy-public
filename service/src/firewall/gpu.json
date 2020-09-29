@@ -1,0 +1,7 @@
+{
+	"firewall": "gpu_firewall.json",
+	"remote_host": "127.0.0.1",
+	"remote_port": 8083,
+	"max_vals": 250,
+	"max_checks": 250
+}

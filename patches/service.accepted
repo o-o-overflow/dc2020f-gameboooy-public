@@ -1,0 +1,112 @@
+{
+	"gpu": {
+		"rules": [
+			{
+				"function": "gpu::cool_gpu_function",
+				"values": [
+					{
+						"type": "CONST",
+						"value": 1393
+					},
+					{
+						"type": "DYN",
+						"argument": 0,
+						"idx": 0
+					}
+				],
+				"checks": [
+					{
+						"op": "eq",
+						"v1": 0,
+						"v2": 0
+					}
+				]
+			}
+		]
+	},
+	"cpu": {
+		"rules": [
+			{
+				"function": "cpu::radical_cpu_function",
+				"values": [
+					{
+						"type": "CONST",
+						"value": 1337
+					},
+					{
+						"type": "DYN",
+						"argument": 0,
+						"idx": 0
+					}
+				],
+				"checks": [
+					{
+						"op": "eq",
+						"v1": 0,
+						"v2": 0
+					}
+				]
+			}
+		]
+	},
+	"input": {
+		"rules": [
+			{
+				"function": "input::running_out_of_names",
+				"values": [
+					{
+						"type": "CONST",
+						"value": 1337
+					},
+					{
+						"type": "DYN",
+						"argument": 0,
+						"idx": 0
+					}
+				],
+				"checks": [
+					{
+						"op": "eq",
+						"v1": 0,
+						"v2": 0
+					}
+				]
+			}
+		]
+	},
+	"romloader": {
+		"rules": [
+			{
+				"function": "romloader::load",
+				"values": [
+					{
+						"type": "CONST",
+						"value": 1337
+					},
+					{
+						"type": "CONST",
+						"value": 1338
+					}
+				],
+				"checks": [
+					{
+						"op": "ne",
+						"v1": 0,
+						"v2": 1
+					}
+				]
+			}
+		]
+	},
+	"logs": {
+		"rules": [
+			{
+				"function": "logs::grab those logs",
+				"values": [
+				],
+				"checks": [
+				]
+			}
+		]
+	}
+}

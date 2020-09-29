@@ -1,0 +1,10 @@
+{
+  "listen_port": 8069,
+  "cfgs": [
+    "gpu",
+    "input",
+    "cpu",
+    "romloader",
+    "logs"
+  ]
+}

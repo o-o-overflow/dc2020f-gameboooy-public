@@ -1,0 +1,7 @@
+{
+	"firewall": "cpu_firewall.json",
+	"remote_host": "127.0.0.1",
+	"remote_port": 8080,
+	"max_vals": 100,
+	"max_checks": 100
+}
